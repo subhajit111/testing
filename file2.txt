@@ -1,5 +1,4 @@
 hello this is testing file
 
+hi there - this is the local changes
 
-line 3 is where the changes will be made - "this is the local"
-line 3 is where the changes will be made - "this is the remote change"
