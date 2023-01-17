@@ -1,0 +1,405 @@
+this is a testing file
+    1  git init
+    2  [200~ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+    3  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+    4  eval "$(ssh-agent -s)"
+    5  > Agent pid 59566
+    6  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+    7  eval "$(ssh-agent -s)"
+    8  > Agent pid 59566
+    9  ssh-add ~/.ssh/id_ed25519
+   10  clip < ~/.ssh/id_ed25519.pub
+   11  cat~/.ssh/id_ed25519.pub
+   12  clear
+   13  git clone https://github.com/subhajit111/testing.git
+   14  ls
+   15  ls -la
+   16  ls .git/
+   17  vim readme.md
+   18  git status
+   19  git add -A
+   20  git status
+   21  git add readme.md 
+   22  git push origin master
+   23  git push master origin
+   24  git commit -m "1st commit"
+   25  git status
+   26  git push master origin
+   27  git push
+   28  git push master
+   29  rm Agent
+   30  ls 
+   31  git status
+   32  git commit -m "1st"
+   33  cler
+   34  clear
+   35  git status
+   36  git commit
+   37  exit
+   38  ls -a
+   39  cd .git
+   40  ls -a
+   41  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+   42  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+   43  eval "$(ssh-agent -s)"
+   44  > Agent pid 59566
+   45   eval "$(ssh-agent -s)"
+   46  ssh-add ~/.ssh/id_ed25519
+   47  clip < ~/.ssh/id_ed25519.pub
+   48  git clone git@github.com:subhajit111/testing.git
+   49  clera
+   50  clear
+   51  clear
+   52  vim readme.md
+   53  git add readme.md 
+   54  git status
+   55  git commit
+   56  git config --global user.email "mishra.subhajit1998@gmail.com"
+   57   git config --global user.name "subhajit111"
+   58  git commit 
+   59  git push 
+   60  git push origin master
+   61  git push master
+   62  git status
+   63  git push
+   64  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+   65  eval "$(ssh-agent -s)"
+   66  ~/.ssh/
+   67  pwd
+   68  cd  /c/Users/mishr/.ssh/
+   69  ls
+   70  ~/.ssh/id_ed25519.pub
+   71  cat id_ed25519.pub 
+   72  cd ..
+   73  pwd
+   74  ls
+   75  clear
+   76  pwd
+   77  git init
+   78  eval "$(ssh-agent -s)"
+   79  git@github.com:subhajit111/testing.git
+   80  git remote add origin git@github.com:subhajit111/testing.git
+   81  vim readme.md
+   82  git add readme.md 
+   83  git commit -m "1st commit"
+   84  git branch -M main
+   85  git push -u origin main
+   86  vi file1.txt
+   87  git add file1.txt 
+   88  git commit -m "2nd commit"
+   89  git push -u origin main
+   90  git status
+   91  git remote add origin email "mishra.subhajit1998@gmail.co"
+   92  git remote add origin email "mishra.subhajit1998@gmail.com"
+   93  git@github.com:subhajit111/testing.git
+   94  git remote add origin git@github.com:subhajit111/testing.git
+   95  clear
+   96  git pull
+   97  ls4
+   98  ls
+   99  vim file2.txt
+  100  git add .
+  101  git commit -m "chnges not yet made"
+  102  git push 
+  103  vim file2.txt 
+  104  git add .
+  105  git commit -m "chnges made"
+  106  git push 
+  107  git pull -r
+  108  vim file2.txt 
+  109  git rebase --continue
+  110  git pull
+  111  git add file2.txt 
+  112  git commmit -m "major chnage"
+  113  git commit -m "major chnage"
+  114  git push
+  115   git push origin HEAD
+  116  git push -r
+  117  git push origin master
+  118  branch
+  119  git branch
+  120  ls
+  121  git checkout main
+  122  ls
+  123  git rm -d  rebasing main
+  124  clear
+  125  git pull
+  126  vim file2.txt 
+  127  git rebase -d
+  128  git rebase --d
+  129  git rebase -- d
+  130  git rebase --abort
+  131  ls
+  132  git pull
+  133  git add .
+  134  git status
+  135  ls
+  136  git commit -m "changed"
+  137  git push 
+  138  vim file2.txt 
+  139  git add .
+  140  git commit -m "local chages done"
+  141  git push
+  142  git pull 
+  143  git add file2.txt 
+  144  git commit -m "local changes done"
+  145  git push
+  146  git log
+  147  clear
+  148  git add file2.txt 
+  149  git commit -m "remote change"
+  150  git push
+  151  git pull -r
+  152  git status
+  153  ls
+  154  ls -l
+  155  ls -a
+  156  git add .
+  157  git commit -m "remote changes"
+  158  git push
+  159  git pull -r
+  160  git add .
+  161  git status
+  162  git push
+  163  git  status
+  164  git rebase --continue
+  165  git push
+  166  git status
+  167  git status
+  168  git -rm -r --cached
+  169  git rm -r --caches
+  170  git rm -r --cached
+  171  git rm -r --cached .idea/
+  172  git status
+  173  git add 
+  174  git add .
+  175  git commit -m "added gitignore file"
+  176  git push
+  177  clear
+  178  history
+  179  cat history >> file1.txt 
+  180  history
+  181  cat history
+  182  history >> file1.txt 
+    1  git init
+    2  [200~ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+    3  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+    4  eval "$(ssh-agent -s)"
+    5  > Agent pid 59566
+    6  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+    7  eval "$(ssh-agent -s)"
+    8  > Agent pid 59566
+    9  ssh-add ~/.ssh/id_ed25519
+   10  clip < ~/.ssh/id_ed25519.pub
+   11  cat~/.ssh/id_ed25519.pub
+   12  clear
+   13  git clone https://github.com/subhajit111/testing.git
+   14  ls
+   15  ls -la
+   16  ls .git/
+   17  vim readme.md
+   18  git status
+   19  git add -A
+   20  git status
+   21  git add readme.md 
+   22  git push origin master
+   23  git push master origin
+   24  git commit -m "1st commit"
+   25  git status
+   26  git push master origin
+   27  git push
+   28  git push master
+   29  rm Agent
+   30  ls 
+   31  git status
+   32  git commit -m "1st"
+   33  cler
+   34  clear
+   35  git status
+   36  git commit
+   37  exit
+   38  ls -a
+   39  cd .git
+   40  ls -a
+   41  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+   42  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+   43  eval "$(ssh-agent -s)"
+   44  > Agent pid 59566
+   45   eval "$(ssh-agent -s)"
+   46  ssh-add ~/.ssh/id_ed25519
+   47  clip < ~/.ssh/id_ed25519.pub
+   48  git clone git@github.com:subhajit111/testing.git
+   49  clera
+   50  clear
+   51  clear
+   52  vim readme.md
+   53  git add readme.md 
+   54  git status
+   55  git commit
+   56  git config --global user.email "mishra.subhajit1998@gmail.com"
+   57   git config --global user.name "subhajit111"
+   58  git commit 
+   59  git push 
+   60  git push origin master
+   61  git push master
+   62  git status
+   63  git push
+   64  ssh-keygen -t ed25519 -C "mishra.subhajit1998@gmail.com"
+   65  eval "$(ssh-agent -s)"
+   66  ~/.ssh/
+   67  pwd
+   68  cd  /c/Users/mishr/.ssh/
+   69  ls
+   70  ~/.ssh/id_ed25519.pub
+   71  cat id_ed25519.pub 
+   72  cd ..
+   73  pwd
+   74  ls
+   75  clear
+   76  pwd
+   77  git init
+   78  eval "$(ssh-agent -s)"
+   79  git@github.com:subhajit111/testing.git
+   80  git remote add origin git@github.com:subhajit111/testing.git
+   81  vim readme.md
+   82  git add readme.md 
+   83  git commit -m "1st commit"
+   84  git branch -M main
+   85  git push -u origin main
+   86  vi file1.txt
+   87  git add file1.txt 
+   88  git commit -m "2nd commit"
+   89  git push -u origin main
+   90  git status
+   91  git remote add origin email "mishra.subhajit1998@gmail.co"
+   92  git remote add origin email "mishra.subhajit1998@gmail.com"
+   93  git@github.com:subhajit111/testing.git
+   94  git remote add origin git@github.com:subhajit111/testing.git
+   95  clear
+   96  git pull
+   97  ls4
+   98  ls
+   99  vim file2.txt
+  100  git add .
+  101  git commit -m "chnges not yet made"
+  102  git push 
+  103  vim file2.txt 
+  104  git add .
+  105  git commit -m "chnges made"
+  106  git push 
+  107  git pull -r
+  108  vim file2.txt 
+  109  git rebase --continue
+  110  git pull
+  111  git add file2.txt 
+  112  git commmit -m "major chnage"
+  113  git commit -m "major chnage"
+  114  git push
+  115   git push origin HEAD
+  116  git push -r
+  117  git push origin master
+  118  branch
+  119  git branch
+  120  ls
+  121  git checkout main
+  122  ls
+  123  git rm -d  rebasing main
+  124  clear
+  125  git pull
+  126  vim file2.txt 
+  127  git rebase -d
+  128  git rebase --d
+  129  git rebase -- d
+  130  git rebase --abort
+  131  ls
+  132  git pull
+  133  git add .
+  134  git status
+  135  ls
+  136  git commit -m "changed"
+  137  git push 
+  138  vim file2.txt 
+  139  git add .
+  140  git commit -m "local chages done"
+  141  git push
+  142  git pull 
+  143  git add file2.txt 
+  144  git commit -m "local changes done"
+  145  git push
+  146  git log
+  147  clear
+  148  git add file2.txt 
+  149  git commit -m "remote change"
+  150  git push
+  151  git pull -r
+  152  git status
+  153  ls
+  154  ls -l
+  155  ls -a
+  156  git add .
+  157  git commit -m "remote changes"
+  158  git push
+  159  git pull -r
+  160  git add .
+  161  git status
+  162  git push
+  163  git  status
+  164  git rebase --continue
+  165  git push
+  166  git status
+  167  git status
+  168  git -rm -r --cached
+  169  git rm -r --caches
+  170  git rm -r --cached
+  171  git rm -r --cached .idea/
+  172  git status
+  173  git add 
+  174  git add .
+  175  git commit -m "added gitignore file"
+  176  git push
+  177  clear
+  178  history
+  179  cat history >> file1.txt 
+  180  history
+  181  cat history
+  182  history >> file1.txt 
+  183  cat file1.txt 
+  184  cat file1.txt | grep cat
+  185  clear
+  186  git reset --help
+  187  git checkout -b bugfix
+  188  git merge master
+  189  git merge main
+  190  ls
+  191  git checkout main
+  192  ls 
+  193  vim file3.txt
+  194  git add .4
+  195  git add .
+  196  vim .gitignore 
+  197  git commit -m "changes done"
+  198  git push 
+  199  git checkout bugfix 
+  200  git merge main
+  201  ls
+  202  clear
+  203  git add .
+  204  vim file3.txt 
+  205  git add .
+  206  git commit -m "new branch"
+  207  git push
+  208   git push --set-upstream origin bugfix
+  209  git checkout main
+  210  git pull 
+  211  branch
+  212  branchs
+  213  branches
+  214  git branch
+  215  clear
+  216  git rm -d bugfix
+  217  git branch --delete bugfix 
+  218  clear
+  219  git branch
+  220  history >> file1
+  221  ls
+  222  history >> file1.txt 
