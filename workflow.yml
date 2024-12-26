@@ -1,0 +1,60 @@
+name: Python Code Analysis and Docker Build # Name of the workflow, visible in the GitHub Actions UI
+
+on: # Specifies the triggers for the workflow
+  push: # Trigger on pushes to specified branches
+    branches:
+      - main # Only run the workflow on pushes to the main branch
+  pull_request: # Trigger the workflow for pull requests
+
+jobs: # Define the individual jobs in the workflow
+  sonarqube: # Job to perform SonarQube analysis
+    runs-on: ubuntu-latest # Specify the environment to run the job
+    steps: # Steps to execute in this job
+      # Step 1: Check out the code from the repository
+      - name: Checkout Code
+        uses: actions/checkout@v3 # Uses the GitHub-provided checkout action to clone the repository
+      
+      # Step 2: Set up Python for the environment
+      - name: Set up Python
+        uses: actions/setup-python@v4 # Uses the setup-python action to install and configure Python
+        with:
+          python-version: '3.9' # Specifies the Python version to use
+
+      # Step 3: Install dependencies for the Python project
+      - name: Install Dependencies
+        run: | # Execute commands in a shell
+          python -m pip install --upgrade pip # Upgrade pip to the latest version
+          pip install -r requirements.txt # Install dependencies listed in requirements.txt
+
+      # Step 4: Perform SonarQube analysis
+      - name: SonarQube Scan
+        uses: sonarsource/sonarcloud-github-action@v2 # Use SonarCloud GitHub Action for analysis
+        with:
+          args: > # Arguments to configure the SonarQube scan
+            -Dsonar.projectKey=your_project_key # Replace with your SonarQube project key
+            -Dsonar.organization=your_organization # Replace with your SonarCloud organization
+            -Dsonar.host.url=https://sonarcloud.io # URL of the SonarQube server
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }} # SonarQube authentication token from secrets
+
+  docker-build: # Job to build and push the Docker image
+    runs-on: ubuntu-latest # Specify the environment to run the job
+    needs: sonarqube # Ensure this job runs only after the sonarqube job completes successfully
+    steps: # Steps to execute in this job
+      # Step 1: Check out the code from the repository
+      - name: Checkout Code
+        uses: actions/checkout@v3 # Clone the repository
+
+      # Step 2: Log in to DockerHub
+      - name: Log in to DockerHub
+        uses: docker/login-action@v2 # Use Docker's login action to authenticate
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }} # DockerHub username from secrets
+          password: ${{ secrets.DOCKER_PASSWORD }} # DockerHub password from secrets
+
+      # Step 3: Build and push the Docker image
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v4 # Use Docker's build and push action
+        with:
+          context: . # Context for the Docker build (current directory)
+          push: true # Push the image to the Docker registry
+          tags: your_dockerhub_username/your_image_name:latest # Replace with your DockerHub username and image name
